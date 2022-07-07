@@ -1,0 +1,56 @@
+.navbar {
+  background-color: #000;
+  height: 100px;
+}
+
+.navbar_container {
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo, .cart_button {
+  color: #fff;
+}
+
+.logo {
+  font-size: 2rem;
+}
+
+.cart_button {
+  border: solid 1px rgb(95, 95, 243);
+  background-color: #000;
+  font-size: 1.6rem;
+  cursor: pointer;
+  padding: 5px;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cart_button:hover {
+  background-color: rgb(95, 95, 243);
+}
+
+.cart_button:focus {
+  outline: none;
+}
+
+.notification {
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+  background-color: rgb(234, 176, 67);
+  font-size: 1rem;
+  position: absolute;
+  right: -5%;
+  bottom: -20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
